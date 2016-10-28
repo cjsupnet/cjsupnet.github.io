@@ -1,0 +1,50 @@
+body {
+  background-color: #F7F7F9 !important;
+}
+
+.margin-top {
+  margin-top: 30px;
+}
+.margin-top-sm {
+  margin-top: 15px;
+}
+
+.navbar {
+  padding: 0 50px;
+  border-radius: 0 !important;
+  border: none;
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+.navbar-brand-custom {
+  padding-right: 7.5px;
+  color: #ffffff !important;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.navbar-link > a {
+  color: #ffffff !important;
+  font-size: 18px;
+  font-weight: 300;
+}
+.navbar-active > a {
+  font-weight: 500 !important;
+}
+
+.navbar-brand-sub {
+  display: inline-block;
+  margin-top: 19px;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+
+.personal-image {
+  width: 200px;
+  height: 200px;
+}

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .carousel-pic {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .carousel-indicators li {
+      width: 20px;
+      height: 20px;
+      margin: 0 5px;
+      border-radius: 10px;
+      background-color: #999;
+      background-color: rgba(70,70,70,.25);
+    }
+    .carousel-indicators .active {
+      width: 20px;
+      height: 20px;
+      margin: 0 5px;
+      border-radius: 10px;
+      background-color: #1A689B;
+    }
+    .index-text {
+      display: block;
+      padding: 0 10px;
+    }
+  </style>
+  <script src="js/modernizr.js"></script> <!-- Modernizr -->
+  <title>Catherine Supnet</title>
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" style="background: #1A689B;">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand navbar-brand-custom" href="#">Portfolio</a>
+        <span class="navbar-brand-sub hidden-xs">by Catherine J. Supnet</span>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="navbar-link"><a href="/about.html">About</a></li>
+          <li class="navbar-link"><a href="/projects.html">Projects</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <div class="container" style="padding: 50px 0;">
+    <div class="row margin-top carousel slide" id="myCarousel" data-ride="carousel">
+      <div class="col-md-6">
+        <div class="row">
+          <h2 class="index-text">Latest Project</h2>
+          <hr>
+          <h3>Skydeck</h3>
+          <h4><em>Demo Day Fall '16</em></h4>
+          <div>
+            <a href="/print.html">View Booklet Details Here</a>
+          </div>
+        </div>
+        <div style="height: 275px;" class="hidden-xs hidden-sm"></div>
+        <div style="height: 75px;" class="hidden-md-up"></div>
+        <div class="row">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+        </div>
+      </div>
+      <div class="col-md-6 margin-top">
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="imgs/SkyDeck_Demo_Day_S_2016_9027.jpg" alt="skydeck demo booklet" class="img-responsive carousel-pic">
+          </div>
+          <div class="item">
+            <img src="imgs/SkyDeck_Demo_Day_Spring2016_6197.jpg" alt="skydeck demo day reader" class="img-responsive carousel-pic">
+          </div>
+          <div class="item">
+            <img src="imgs/SkyDeck_Demo_Day_Spring2016_6199 (2).jpg" alt="skydeck demo day reader 2" class="img-responsive carousel-pic">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-2.1.1.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
