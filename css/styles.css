@@ -43,6 +43,10 @@ body {
   letter-spacing: 1px;
 }
 
+.navbar-toggle {
+  border: none !important;
+}
+
 
 .personal-image {
   width: 200px;
