@@ -1,5 +1,5 @@
 body {
-  background-color: #fdf6ee !important;
+  background-color: #FDF6EE !important;
 }
 
 .body-container {
@@ -9,46 +9,48 @@ body {
 .margin-top {
   margin-top: 30px;
 }
+
 .margin-top-sm {
   margin-top: 15px;
 }
 
 .navbar {
-  padding: 0 5%;
   border-radius: 0 !important;
   border: none;
-  -webkit-box-shadow: 0 8px 6px -6px #999;
-  -moz-box-shadow: 0 8px 6px -6px #999;
-  box-shadow: 0 8px 6px -6px #999;
+  padding: 0 5%;
 }
+
 .navbar-brand-custom {
-  padding-right: 7.5px;
-  color: #ffffff !important;
+  color: #FDF6EE !important;
+  font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 300;
   letter-spacing: 5px;
-  text-transform: uppercase;
-  font-family: Open Sans;
   margin-top: 7px;
+  padding-right: 7.5px;
+  text-transform: uppercase;
 }
+
 .navbar-link > a {
-  color: #ffffff !important;
+  color: #FDF6EE !important;
+  font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 300;
-  font-family: Open Sans;
+  letter-spacing: 1px;
   margin-top: 7px;
 }
-.navbar-link.active {
-  background-color: #50E3C2 !important;
 
+.navbar-link.active {
+  background-color: #FE8864 !important;
 }
+
 .navbar-link.active > a {
-  background-color: #50E3C2 !important;
-  color: green !important; /*TODO: change active link color here*/
+  background-color: #FE8864 !important;
+  color: #FFFFFF !important; /*TODO: change active link color here*/
 }
 
 .navbar-link > a:active {
-  color: green !important;
+  color: #FFFFFF !important;
 }
 
 .navbar-active > a {
@@ -56,113 +58,93 @@ body {
 }
 
 .navbar-brand-sub {
+  color: #FDF6EE;
   display: inline-block;
-  margin-top: 19px;
-  color: #ffffff;
   font-size: 11px;
   font-weight: 100;
   letter-spacing: 1px;
+  margin-top: 19px;
 }
 
 .navbar-toggle {
+  background-color: #003362;
   border: none !important;
-  background-color: #50E3C2;
   margin-top: 15px;
 }
 
-.navbar-btn {
-  border-style: solid;
-  border-width: 2px;
-  border-color: #ffffff;
-  background-color: #50E3C2;
-  border-radius: 6px;
-  font-family: Open Sans;
-  color: #ffffff;
-  margin: 4px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 18px;
-  font-weight: 300;
-}
-
-.navbar-btn:hover {
-  border-style: solid;
-  border-width: 2px;
-  border-color: #ffffff;
-  background-color: #ffffff;
-  border-radius: 6px;
-  font-family: Open Sans;
-  color: #50E3C2;
-  margin: 4px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 18px;
-  font-weight: 300;
-}
-
 .return-link {
-  color: #50E3C2;
+  color: #FE8864;
   font-size: 16px;
   margin-left: 17px;
 }
 
 .return-link:hover {
-  color: #004475;
+  color: #12609F;
   text-decoration: none;
 }
 
 .work-graphic {
-  width:350px; 
-  height:100%; 
-  display:block; 
-  margin:auto; 
+  display:block;
+  height:100%;
+  margin:auto;
   margin-bottom: 30px;
+  width:350px;
 }
 
 #about-me,
 #web-app,
-#other-work {
+#other-work,
+#resume {
   padding-top: 70px;
 }
 
 .about-text {
-  font-size:20px; 
-  color: #4A4A4A; 
-  font-family:Open Sans; 
-  display:block; 
-  margin:auto; 
-  padding: 40px;
+  color: #4A4A4A;
+  display:block;
+  font-family:"Open Sans", Helvetica, sans-serif;
+  font-size:20px;
+  margin:auto;
+  padding: 30px;
 }
 
 .section-title {
-  font-size:27px; 
-  color:#004475; 
-  font-weight:bolder; 
-  font-family:Open Sans; 
+  color:#004475;
+  font-family:"Open Sans", Helvetica, sans-serif;
+  font-size:30px;
+  font-weight:bolder;
+  text-align:center
+}
+
+.section-subtitle {
+  color: #4A4A4A;
+  font-family:"Open Sans", Helvetica, sans-serif;
+  font-size:20px;
   text-align:center
 }
 
 .section-underline {
-  background:#50E3C2; 
-  height:3px; 
-  width:5%; 
-  margin-bottom: 30px
+  background-color:#FE8864;
+  border: #FE8864;
+  border-radius: 100px;
+  height:4px;
+  margin-bottom: 15px;
+  width:7%;
 }
 
 .about-graphic {
-  width:350px; 
-  height:100%; 
-  display:block; 
-  margin:auto; 
+  display:block;
+  margin:auto;
+  padding-top: 40px;
+  width:350px;
 }
 
 .hyperlink {
-  color: #50E3C2; 
+  color: #FE8864;
 }
 
 .hyperlink:hover {
-  text-decoration: none; 
-  color: #004475; 
+  color: #12609F;
+  text-decoration: none;
 }
 
 .carousel-pic {
@@ -172,20 +154,21 @@ body {
 }
 
 .carousel-indicators li {
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;
-  border-radius: 10px;
   background-color: #999;
   background-color: rgba(70,70,70,.25);
+  border-radius: 10px;
+  height: 20px;
+  margin: 0 5px;
+  width: 20px;
+
 }
 
 .carousel-indicators .active {
-  width: 20px;
+  background-color: #FE8864;
+  border-radius: 10px;
   height: 20px;
   margin: 0 5px;
-  border-radius: 10px;
-  background-color: #50E3C2;
+  width: 20px;
 }
 
 .index-text {
@@ -196,3 +179,213 @@ body {
 .index-block {
   padding: 0 10px;
 }
+
+/*Hero Button with bounce effect*/
+.connect-btn {
+  background-color: #FE8864;
+  border: solid #FE8864;
+  border-radius: 25px;
+  color: #FFFFFF;
+  display: block;
+  font-size: 18px;
+  letter-spacing: 1.2px;
+  margin:auto;
+  padding: 10px 45px;
+}
+
+/*To remove button text underline when hovering*/
+.connect-btn-link {
+  text-decoration: none;
+}
+
+.connect-btn-link:hover {
+  text-decoration: none;
+}
+
+.connect-btn:hover {
+  background-color: #12609F;
+  border: solid #12609F;
+  border-radius: 25px;
+  color: #FFFFFF;
+  display: block;
+  font-size: 18px;
+  letter-spacing: 1.2px;
+  margin:auto;
+  padding: 10px 45px;
+}
+
+.connect-btn:focus {
+  outline-style: none;
+}
+
+/*For homepage hero header*/
+#index-title {
+  color:#004475;
+  display:block;
+  font-family:"Open Sans", Helvetica, sans-serif;
+  font-size:70px;
+  font-weight:bolder;
+  margin:auto;
+  text-align:center;
+}
+#index-subtitle {
+  color:#4A4A4A;
+  display:block;
+  font-family:"Open Sans", Helvetica, sans-serif;
+  font-size:30px;
+  margin-bottom: 30px;
+  text-align:center;
+}
+
+/*For resume page*/
+#resume-head {
+  color: #003362;
+  display:block;
+  font-family:"Open Sans", Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align:center;
+}
+
+/*hr line styling*/
+.section-divider{
+  background-color:#FE8864;
+  border: #FE8864;
+  border-radius: 100px;
+  height:4px;
+  width:100%;
+}
+
+.resume-section-title{
+  color: #003362;
+  display:block;
+  font-family:"Open Sans", Helvetica, sans-serif;
+  font-weight:bold;
+  margin-bottom: 15px;
+  text-align:left;
+}
+
+.resume-item-title {
+  color: #FE8864;
+  display:block;
+  font-family:"Open Sans", Helvetica, sans-serif;
+  font-weight:bold;
+  margin-bottom: 2px;
+  margin-top: 25px;
+  padding: 0px;
+  text-align:left;
+}
+
+.resume-item-date {
+  color: #4A4A4A;
+  display:block;
+  font-family:"Open Sans", Helvetica, sans-serif;
+  margin-bottom: 2px;
+  margin-top: 25px;
+  text-align:right;
+}
+
+.resume-item-loc {
+  color: #4A4A4A;
+  display:block;
+  font-family:"Open Sans", Helvetica, sans-serif;
+  margin-bottom: 15px;
+  padding: 0px;
+  text-align:left;
+}
+
+.resume-item-description {
+  color: #4A4A4A;
+  display:block;
+  font-family:"Open Sans", Helvetica, sans-serif;
+  line-height: 25px;
+  margin-bottom: 10px;
+  padding: 0px;
+  text-align:left;
+}
+
+.software-skills-languages {
+  border: solid #FE8864 5px;
+  border-radius: 15px;
+  margin: 45px 0px 45px 0px;
+  padding: 0px 35px 45px 35px;
+}
+
+.software-skills-languages-title {
+  color: #003362;
+  display:block;
+  font-family:"Open Sans", Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 45px;
+  text-align:center;
+}
+
+.software-skills-languages-desc {
+  color: #4A4A4A;
+  display:block;
+  font-family:"Open Sans", Helvetica, sans-serif;
+  line-height: 15px;
+  margin-bottom: 2px;
+  padding: 0px;
+  text-align:center;
+}
+
+.mini-section-divider {
+  background-color:#FE8864;
+  border: #FE8864;
+  border-radius: 100px;
+  height:4px;
+  margin-top: 0.5px;
+  width:25%;
+}
+
+/*Footer styling*/
+.footer-section {
+  background-color: #FAEAD7;
+  width: 100%;
+  padding: 15px;
+  margin-top: 45px;
+}
+
+.footer-title {
+  color: #003362;
+  display:block;
+  font-family:"Open Sans", Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align:center;
+}
+
+.footer-text {
+  color: #4A4A4A;
+  display:block;
+  font-family:"Open Sans", Helvetica, sans-serif;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  text-align:center;
+}
+
+.footer-graphic {
+  display: block;
+  margin: auto;
+  width:80px;
+}
+
+ @media (max-width:965px) {
+   .resume-item-date {
+     display: flex;
+     margin-top: 7px;
+     padding: 0px;
+   }
+ }
+
+ @media (max-width:375px) {
+   .about-graphic {
+     padding-top: 0px;
+   }
+   #resume-graphic {
+     margin-top: 30px;
+   }
+ }
