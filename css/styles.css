@@ -30,6 +30,10 @@ body {
   padding-right: 7.5px;
 }
 
+#brand-MyPortfolio {
+  color: #FDF6EE;
+}
+
 .navbar-link > a {
   color: #FDF6EE !important;
   font-family: "Open Sans", Helvetica, sans-serif;
