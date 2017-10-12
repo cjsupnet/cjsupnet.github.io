@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
   <script src="js/modernizr.js"></script> <!-- Modernizr -->
   <title>Catherine Supnet</title>
 </head>
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top" style="background: #003362;">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -19,147 +20,77 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand navbar-brand-custom" href="#"><span id="brand-MyPortfolio">My</span>Portfolio</a>
+        <a class="navbar-brand navbar-brand-custom" href="#"><img id="brand" src="imgs/logo.png" alt="CJS logo"></a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li class="navbar-link"><a href="#about-me">About me</a></li>
-          <li class="navbar-link"><a href="#web-app">Web &amp; app</a></li>
-          <li class="navbar-link"><a href="#other-work">Other work</a></li>
-          <li class="navbar-link"><a href="#resume">Resume</a></li>
-          <li class="navbar-link"><a href="https://www.linkedin.com/in/catherinejsupnet">Connect</a></li>
+          <li class="navbar-link"><a id="nav-link" href="webandapp.html">Web &amp; app</a></li>
+          <li class="navbar-link"><a id="nav-link" href="otherwork.html">Other</a></li>
+          <li class="navbar-link"><a id="nav-link" href="resume.html">Resume</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
-  <div class="container" style="margin-top: 100px;">
-    <div class="row margin-top">
-        <div class="col-md-6">
-          <h1 id="index-title">Hello, I'm<br>Catherine</h1>
-          <h4 id="index-subtitle">Let's design together.</h4>
-          <a class="connect-btn-linkme" href="https://www.linkedin.com/in/catherinejsupnet"><button class="connect-btn">Connect</button></a>
+  <div class="container-fluid">
+    <div class="row margin-top hero" style="background-image: url(imgs/CatherinePattern.png);">
+        <div class="col-md-6 text-description-hero left">
+          <p id="hero-subtitle">WELCOME TO MY PORTFOLIO</p>
+          <h1 id="hero-title">Hello, I'm <br>Catherine.</h1>
+          <p id="hero-description">I like working on print, digital, and web design projects. Let's design together! Send an email or connect with me through LinkedIn.</p>
+          <a class="connect-btn" href="mailto:cjsupnet@gmail.com">Send email</a>
+          <a class="connect-btn" href="https://www.linkedin.com/in/catherinejsupnet/">LinkedIn</a>
         </div>
         <div class="col-md-6">
-          <img style="width:500px; height:100%; display:block; margin:auto; margin-top: 30px" src="imgs/Catherine.gif" alt="Catherine" class="img-responsive col-md-6">
+        </div>
         </div>
     </div>
-    <div class="row">
-      <div class="col-md-12">
-        <h3 class="section-title" id="about-me">About me</h3>
-        <hr class="section-underline">
-      </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row about">
+        <div class="col-md-6">
+          <img id="laptop-about" src="imgs/laptop1.png" alt="laptop screen">
+        </div>
+        <div class="col-md-6 text-description">
+          <h2 class="left-aligned-title">Print, digital, and web designer</h2>
+          <hr class="left-aligned-divider">
+          <p class="left-aligned-description">I am currently SkyDeck’s Design &amp; Media manager, creating and managing its web, digital, and print materials. I also serve as an in-house design consultant, assisting SkyDeck’s startups with design related work (eg. digital illustrations, pitch decks, banners, handouts). If you’d like to connect, please reach out to me! I’d love to work alongside a dedicated design team.</p>
+          <p class="left-aligned-list-title">Some companies I've worked with</p>
+          <p class="left-aligned-list">SkyDeck</p>
+          <p class="left-aligned-list">SafelyYou</p>
+          <p class="left-aligned-list">SapphirePine</p>
+          <p class="left-aligned-list">Karuna VR</p>
+        </div>
     </div>
-    <div class="row margin-top">
-      <div class="col-md-6">
-        <img class="about-graphic" src="imgs/Present.gif" alt="Presenting phone">
+  </div>
+  <div class="container-fluid">
+    <div class="row work-main">
+      <div class="col-md-6 work-type-section">
+        <h2 class="work-type">Web &amp; app projects</h2>
+        <hr class="center-divider">
+        <a href="webandapp.html"><img class="type-img" src="imgs/webapp.png" alt="Web & app"></a>
       </div>
-      <div class="col-md-6">
-          <p class="about-text">I am currently SkyDeck’s Design & Media manager, creating and managing its web, digital, and print materials. I also serve as an in-house design consultant, assisting SkyDeck’s startups with design related work (eg. digital illustrations, pitch decks, banners, handouts). If you’d like to connect, please reach out to me!  I’d love to work alongside a dedicated design team.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <h3 class="section-title" id="web-app">Web & app</h3>
-        <h4 class="section-subtitle">Click on a project to view details</h4>
-        <hr class="section-underline">
-      </div>
-    </div>
-    <div class="row margin-top">
-      <div class="col-md-4">
-        <a href="kankuro.html">
-          <img src="imgs/KankuroGraphic.png" alt="Kankuro" class="img-responsive col-md-4 work-graphic">
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a href="squidink.html">
-          <img src="imgs/SquidinkGraphic.png" alt="Squid.ink" class="img-responsive col-md-4 work-graphic">
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a href="localcoffee.html">
-          <img src="imgs/LocalcoffeeGraphic.png" alt="Local.coffee" class="img-responsive col-md-4 work-graphic">
-        </a>
-      </div>
-    </div>
-    <div class="row margin-top">
-      <div class="col-md-4">
-        <a href="upsidedown.html">
-          <img src="imgs/UpsidedownGraphic.png" alt="UpsideDown" class="img-responsive col-md-4 work-graphic">
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a href="dreamer.html">
-          <img src="imgs/DreamerGraphic.jpg" alt="Dreamer" class="img-responsive col-md-4 work-graphic">
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a href="rklogistics.html">
-          <img src="imgs/RKLogisticsGraphic.png" alt="RK Logistics Homepage Redesign" class="img-responsive col-md-4 work-graphic">
-        </a>
-      </div>
-    </div>
-    <div class="row margin-top">
-      <div class="col-md-4">
-        <a href="caltime.html">
-          <img src="imgs/CaltimeGraphic.png" alt="CalTime Redesign" class="img-responsive col-md-4 work-graphic">
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a href="skyportal.html">
-          <img src="imgs/SkyPortalGraphic.png" alt="SkyDeck SkyPortal" class="img-responsive col-md-4 work-graphic">
-        </a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <h3 class="section-title" id="other-work">Other work</h3>
-        <h4 class="section-subtitle">Click on a project to view details</h4>
-        <hr class="section-underline">
-      </div>
-    </div>
-    <div class="row margin-top">
-      <div class="col-md-4">
-        <a href="SkyDeck.html">
-          <img src="imgs/SkyDeckGraphicMain.png" alt="SkyDeck Graphic" class="img-responsive col-md-4 work-graphic">
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a href="SapphirePine.html">
-          <img src="imgs/SapphirePineGraphic.png" alt="SapphirePine Graphic" class="img-responsive col-md-4 work-graphic">
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a href="karuna.html">
-          <img src="imgs/KarunaGraphic.png" alt="KarunaGraphic" class="img-responsive col-md-4 work-graphic">
-        </a>
-      </div>
-    <div class="row margin-top">
-      <div class="col-md-4">
-        <a href="icondesigns.html">
-          <img src="imgs/Icondesigns.png" alt="Icon designs" class="img-responsive col-md-4 work-graphic">
-        </a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <h3 class="section-title" id="resume">Resume</h3>
-        <hr class="section-underline">
-      </div>
-    </div>
-    <div class="row margin-top">
-      <div class="col-md-6">
-        <p class="about-text">I'm currently working to specialize in product design but did you know that I actually graduated with a BA in History from UC Berkeley? Learn more about my work experience, education, and skills <span><a class="hyperlink" href="resume.html">here</a></span>!</p>
-      </div>
-      <div class="col-md-6">
-        <img class="about-graphic" id="resume-graphic" src="imgs/Resume.gif" alt="Resume Image" class="img-responsive col-md-6">
+      <div class="col-md-6 work-type-section">
+        <h2 class="work-type">Other projects</h2>
+        <hr class="center-divider">
+        <a href="otherwork.html"><img class="type-img" src="imgs/otherwork.png" alt="Other work"></a>
       </div>
     </div>
   </div>
-  <footer class="col-md-12 footer-section" style="background-image: url(imgs/footerpattern.png);">
-    <h3 class="footer-title">Like what you see?</h3>
-    <a class="connect-btn-linkme" href="https://www.linkedin.com/in/catherinejsupnet"><button class="connect-btn">Connect</button></a>
-    <h5 class="footer-text">or email me at cjsupnet@gmail.com</h5>
+  <!-- 
+  <div class="container-fluid">
+    <div class="row testimonial">
+      <div class="col-md-12 quote">
+        <p id="quote-mark">"</p>
+        <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. An tu me de L. Omnia contraria, quos etiam insanos esse vultis. Duo Reges: constructio interrete. Explanetur igitur. Graccho, eius fere, aequalí? Itaque fecimus. Peccata paria.</i></p>
+        <p class="quote-name"><span style="color: #3DA88E; font-weight: bold">Lorem ipsum dolor</span> | consectetur adipiscing elit</p>
+      </div>
+    </div>
+  </div> 
+  -->
+  <footer class="col-md-12 footer">
+    <img id="footer-img" src="imgs/Gears.gif">
+    <p id="footer-text"> Built by Catherine J. Supnet</p>
   </footer>
   <script src="js/jquery-2.1.1.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
