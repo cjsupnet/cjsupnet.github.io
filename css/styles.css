@@ -304,6 +304,12 @@
 
 /*images*/
 
+.design-badge {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
 .type-img {
   width: 35%;
   display: block;
@@ -343,7 +349,6 @@
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-}
 }
 
 /* Applies to more than one section*/
