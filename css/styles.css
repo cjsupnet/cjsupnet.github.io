@@ -307,7 +307,7 @@
 .design-badge {
   display: block;
   margin: auto;
-  width: 80%;
+  width: 50%;
 }
 
 .type-img {
@@ -673,6 +673,6 @@
   display: block;
   margin: auto;
   margin-top: 50px;
-  width: 75%;
+  width: 50%;
 }
 }
