@@ -3,13 +3,13 @@
 }
 
 .margin-top {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 /*Navbar*/
 
 .navbar {
-  background: #2B3749; 
+  background: #251864; 
   border: 0px; 
   height: 70px; 
   padding-right: 85px;
@@ -22,7 +22,7 @@
 }
 
 .navbar-collapse {
-  background-color: #2B3749;
+  background-color: #251864;
   padding-top: 5px;
   margin: 0px;
   border: none;
@@ -45,7 +45,7 @@
 
 #nav-link-select {
   background-color: transparent;
-  color: #3DA88E;
+  color: #47CE90;
 }
 
 .icon-bar {
@@ -55,7 +55,16 @@
 /*Hero CSS*/
 
 .hero {
-  background-color: #2F3D52;
+  background-color: #F9F9F9;
+  /*background-image: url(imgs/hero_background2.svg) !important;*/
+  background-repeat: no-repeat;
+  padding: 80px 50px 80px;
+}
+
+.hero-non-homepage {
+  background: linear-gradient(to right, #3023AE , #946DD7);
+  /*background-image: url(imgs/hero_background2.svg) !important;*/
+  background-repeat: no-repeat;
   padding: 80px 50px 80px;
 }
 
@@ -66,16 +75,6 @@
   text-align: left;
   margin-bottom: 35px;
   margin-left: 5px;
-}
-
-
-#hero-subtitle {
-  color: #FFFFFF;
-  font-family: Avenir;
-  font-size: 14px;
-  text-align: left;
-  margin-bottom: 5px;
-  text-transform: uppercase;
 }
 
 #hero-title {
@@ -98,21 +97,21 @@
 }
 
 .left-aligned-divider {
-  border: 2px solid #36A98E;
+  border: 1px solid #D2D8E1;
   border-radius: 5px;
   margin-left: 0px;
   width: 85px;
 }
 
 .left-aligned-title {
-  color: #2F3D52;
+  color: #251864;
   font-family: 'Bree Serif', serif;
   text-align: left;
   margin-bottom: 25px;
 }
 
 .left-aligned-list-title {
-  color: #36A98E;
+  color: #251864;
   font-family: 'Bree Serif', serif;
   font-size: 18px;
   text-align: left;
@@ -126,7 +125,7 @@
 }
 
 .center-divider {
-  border: 2px solid #36A98E;
+  border: 1px solid #D2D8E1;
   border-radius: 5px;
   margin: auto;
   margin-bottom: 30px;
@@ -135,29 +134,41 @@
 }
 
 .connect-btn {
-  border: 2px solid #36A98E;
+  background-color: #47CE90;
   border-radius: 5px;
-  color: #36A98E;
+  box-shadow: 0px 5px 15px #141A5F;
+  color: #FFFFFF;
   font-size: 18px;
   margin-left: 5px;
   padding: 15px 40px;
   text-decoration: none;
-
-
-  box-shadow: inset 0 0 0 0 #36A98E;
-  -webkit-transition: all ease 0.3s;
-  -moz-transition: all ease 0.3s;
-  transition: all ease 0.3s;
 }
 
 .connect-btn:hover {
-  box-shadow: inset 200px 0 0 0 #36A98E;
+  box-shadow: 0px 8px 25px #141A5F;
   color: #FFF;
   text-decoration: none;
 }
 
+.connect-btn-2 {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px #141A5F;
+  color: #251864;
+  font-size: 18px;
+  margin-left: 5px;
+  padding: 15px 40px;
+  text-decoration: none;
+}
+
+.connect-btn-2:hover {
+  box-shadow: 0px 8px 25px #141A5F;
+  color: #251864;
+  text-decoration: none;
+}
+
 .work-main {
-  background-color: #F4F8FB;
+  background: linear-gradient(to right, #3023AE , #946DD7);
   padding: 75px;
 }
 
@@ -165,6 +176,7 @@
   color: #FFFFFF;
   font-family: 'Bree Serif', serif;
   text-align: center;
+  margin: 10px 0;
 }
 
 .resume {
@@ -175,7 +187,8 @@
 /*About CSS*/
 
 .about {
-  padding: 50px 30px;
+  background-color: #F9F9F9;
+  padding: 50px 30px 80px 0px;
 }
 /*Work CSS*/
 
@@ -194,7 +207,6 @@
 .work-type {
   color: #2C3849;
   font-family: 'Bree Serif', serif;
-  margin-bottom: 32px;
   text-align: center;
   text-decoration: none;
 }
@@ -215,12 +227,34 @@
 }
 
 .center-divider-work {
-  border: 2px solid #3DA88E;
+  border: 1px solid #D2D8E1;
   border-radius: 5px;
   margin: auto;
   margin-bottom: 20px;
   margin-top: 20px;
   width: 85px;
+}
+
+.work-type-section {
+  text-align: center;
+}
+
+.work-type-block {
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px #141A5F;
+  display: inline-block;
+  padding: 30px 20px;
+  margin: 20px 30px;
+  width: 320px;
+}
+
+.work-type-block:hover {
+  border-radius: 5px;
+  box-shadow: 0px 8px 25px #141A5F;
+  padding: 30px 20px;
+  margin: 20px 30px;
+  width: 320px;
+  cursor: pointer;
 }
 
 /*testimonial CSS*/
@@ -241,12 +275,8 @@
 }
 
 #quote-mark {
-  color: #3DA88E;
-  font-size: 100px;
-  font-family: 'Bree Serif', serif;
-  font-style: italic;
-  line-height: 30px;
-  text-align: center;
+  width: 60px;
+  margin-bottom: 32px;
 }
 
 .quote-name {
@@ -285,8 +315,7 @@
 }
 
 .carousel-indicators li {
-  background-color: #999;
-  background-color: rgba(70,70,70,.25);
+  background-color: rgba(210, 216, 225, 1);
   border-radius: 10px;
   height: 20px;
   margin: 0 5px;
@@ -295,7 +324,7 @@
 }
 
 .carousel-indicators .active {
-  background-color: #3DA88E;
+  background-color: #47CE90;
   border-radius: 10px;
   height: 20px;
   margin: 0 5px;
@@ -304,32 +333,15 @@
 
 /*images*/
 
-.design-badge {
+.hero-graphic {
+  display: block;
+  margin-top: 5%;
+}
+
+.about-graphic {
   display: block;
   margin: auto;
-  width: 50%;
-}
-
-.type-img {
-  width: 35%;
-  display: block;
-  margin: auto;
-
-  -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.type-img:hover {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-#laptop-about {
-  margin: auto;
-  margin-top: 55px;
-  width: 85%;
+  width: 75%;
 }
 
 #waving {
@@ -340,15 +352,11 @@
 }
 
 .work-item {
-  -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  box-shadow: 0px 8px 19px #B7C2D2;
 }
 
 .work-item:hover {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  box-shadow: 0px 8px 25px #B7C2D2;
 }
 
 /* Applies to more than one section*/
@@ -359,11 +367,12 @@
 }
 
 .hyperlink {
-  color: #3DA88E;
+  color: #7C60CB;
+  font-weight: bold;
 }
 
 .hyperlink:hover {
-  color: #3DA88E;
+  color: #261C62;
   font-weight: bold;
   text-decoration: none;
 }
@@ -375,7 +384,7 @@
 }
 
 .resume-section-title {
-  color: #2F3D52;
+  color: #251864;
   font-family: 'Bree Serif', serif;
   text-align: left;
   margin-bottom: 25px;
@@ -383,7 +392,7 @@
 }
 
 .resume-item-title {
-  color: #36A98E;
+  color: #47CE90;
   font-family: Avenir;
   font-weight: bold;
   margin-bottom: 5px;
@@ -391,7 +400,7 @@
 }
 
 .resume-item-date {
-  color: #36A98E;
+  color: #47CE90;
   font-family: Avenir;
   font-weight: bold;
   margin-bottom: 5px;
@@ -423,7 +432,7 @@
 }
 
 .software-skills-languages-title {
-  color: #2F3D52;
+  color: #251864;
   font-family: 'Bree Serif', serif;
   text-align: left;
   margin-bottom: 25px;
@@ -449,21 +458,11 @@
   .footer {
     padding: 0px;
   }
-  .type-img {
-  width: 100%;
-  display: block;
-  margin: auto;
-
-  -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-  .design-badge {
-  display: block;
-  margin: auto;
-  margin-top: 50px;
-  width: 100%;
-}
+  .hero-graphic {
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 375px) {
@@ -471,178 +470,148 @@
     padding-right: 0px;
   }
   #brand {
-  display: inline-block;
-  margin-left: 15px;
-  width: 40px;
-}
+    display: inline-block;
+    margin-left: 15px;
+    width: 40px;
+  }
   .hero {
-  margin-top: 65px
-  padding: 50px 30px;
+    margin-top: 65px
+    padding: 50px 30px;
   }
   #hero-title {
-  color: #FFFFFF;
-  font-family: 'Bree Serif', serif;
-  font-size: 35px;
-  text-align: left;
-  margin-bottom: 25px;
-  margin-top: 0px;
-}
+    color: #FFFFFF;
+    font-family: 'Bree Serif', serif;
+    font-size: 35px;
+    text-align: left;
+    margin-bottom: 25px;
+    margin-top: 0px;
+  }
   .text-description {
-  padding: 30px;
-}
+    padding: 30px;
+  }
   #footer-img {
-  margin-left: 50px;
- }
+    margin-left: 50px;
+   }
  .resume-section {
-  padding: 20px 30px;
- }
-  #laptop-about {
-  margin-bottom: 25px;
-  margin-top: 25px;
-  width: 100%;
-}
-  .design-badge {
-  display: block;
-  margin: auto;
-  margin-top: 50px;
-  width: 100%;
-}
+    padding: 20px 30px;
+   }
+  #about-graphic {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 100%;
+  }
+  .hero-graphic {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 414px) {
- .navbar {
-  padding-right: 0px;
-}
-  #brand {
-  display: inline-block;
-  margin-left: 15px;
-  width: 40px;
-}
-
-  .hero {
-  margin-top: 65px
-  padding: 50px 20px;
+  .navbar {
+    padding-right: 0px;
   }
-
+  #brand {
+    display: inline-block;
+    margin-left: 15px;
+    width: 40px;
+  }
+  .hero {
+    margin-top: 65px
+    padding: 50px 20px;
+  }
   #hero-title {
-  color: #FFFFFF;
-  font-family: 'Bree Serif', serif;
-  font-size: 50px;
-  text-align: left;
-  margin-bottom: 25px;
-  margin-top: 0px;
-}
+    color: #FFFFFF;
+    font-family: 'Bree Serif', serif;
+    font-size: 50px;
+    text-align: left;
+    margin-bottom: 25px;
+    margin-top: 0px;
+  }
   .work-main {
     padding: 30px;
-}
-  .work-type-section {
-    margin: 40px 0px;
-}
+  }
   .quote {
     padding: 50px 50px;
-}
+  }
   .work-description {
     padding: 60px 50px;
 }
   .connect-btn {
-  border: 2px solid #36A98E;
+  background-color: #47CE90;
   border-radius: 5px;
-  color: #36A98E;
-  display: inline-block;
+  box-shadow: 0px 5px 15px #141A5F;
+  color: #FFFFFF;
   font-size: 18px;
-  margin-top: 15px;
-  padding: 15px 40px;
-  text-align: center;
+  margin-left: 5px;
+  padding: 15px 70px;
   text-decoration: none;
-  width: 100%;
-
-  box-shadow: inset 0 0 0 0 #36A98E;
-  -webkit-transition: all ease 0.3s;
-  -moz-transition: all ease 0.3s;
-  transition: all ease 0.3s;
 }
-  .connect-btn:hover {
-    box-shadow: inset 266px 0 0 0 #36A98E;
-    color: #FFF;
-    text-decoration: none;
+
+.connect-btn:hover {
+  box-shadow: 0px 8px 25px #141A5F;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.connect-btn-2 {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px #141A5F;
+  color: #251864;
+  font-size: 18px;
+  margin-left: 5px;
+  padding: 15px 81px;
+  text-decoration: none;
+}
+
+.connect-btn-2:hover {
+  box-shadow: 0px 8px 25px #141A5F;
+  color: #251864;
+  text-decoration: none;
 }
   .about {
     padding: 30px;
-}
-  .type-img {
-    width: 50%;
-    display: block;
-    margin: auto;
-
-    -moz-transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-  .type-img:hover {
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
+  }
   .resume-section {
     padding: 20px 50px;
   }
-   #laptop-about {
-  margin: auto;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  width: 100%;
-}
-  .type-img {
-  width: 65%;
-  display: block;
-  margin: auto;
-
-  -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-  .design-badge {
-  display: block;
-  margin: auto;
-  margin-top: 50px;
-  width: 100%;
-}
+  #about-graphic {
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 100%;
+  }
+  .hero-graphic {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+  }
 }
 
 @media (min-width: 768px) {
   .work-main {
     padding: 30px;
   }
-  .work-type-section {
-    margin: 40px 0px;
-}
   .quote {
     padding: 50px 50px;
   }
   .work-description {
     padding: 60px 150px;
   }
-   #laptop-about {
-  margin: auto;
-  margin-bottom: 55px;
-  width: 100%;
-}
-  .type-img {
-  width: 35%;
-  display: block;
-  margin: auto;
-
-  -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-  .design-badge {
-  display: block;
-  margin: auto;
-  margin-top: 80px;
-  width: 50%;
-}
+  #about-graphic {
+    margin: auto;
+    margin-bottom: 55px;
+    width: 100%;
+  }
+  .hero-graphic {
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    width: 75%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -652,27 +621,18 @@
   .work-description {
     padding: 60px 300px;
   }
-  #laptop-about {
-  margin: auto;
-  margin-bottom: 0px;
-  width: 85%;
-}
-.text-description-hero {
-  padding: 50px;
-}
-  .type-img {
-  width: 35%;
-  display: block;
-  margin: auto;
-
-  -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-  .design-badge {
-  display: block;
-  margin: auto;
-  margin-top: 50px;
-  width: 50%;
-}
+  #about-graphic {
+    margin: auto;
+    margin-bottom: 0px;
+    width: 85%;
+  }
+  .text-description-hero {
+    padding: 50px;
+  }
+  .hero-graphic {
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+    width: 50%;
+  }
 }
