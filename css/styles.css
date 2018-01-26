@@ -195,8 +195,11 @@
 .work {
   background-color: #FFFFFF;
   justify-content: space-between;
-  padding: 32px;
-  padding-bottom: 60px;
+  padding: 24px 32px 0 32px;
+}
+
+.work-bottom {
+  margin-bottom: 60px;
 }
 
 .work-item {
