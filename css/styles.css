@@ -139,6 +139,7 @@
   box-shadow: 0px 5px 15px #141A5F;
   color: #FFFFFF;
   font-size: 18px;
+  margin-bottom: 32px;
   margin-left: 5px;
   padding: 15px 40px;
   text-decoration: none;
@@ -156,6 +157,7 @@
   box-shadow: 0px 5px 15px #141A5F;
   color: #251864;
   font-size: 18px;
+  margin-bottom: 32px;
   margin-left: 5px;
   padding: 15px 40px;
   text-decoration: none;
@@ -489,9 +491,6 @@
     margin-bottom: 25px;
     margin-top: 0px;
   }
-  .text-description {
-    padding: 30px;
-  }
   #footer-img {
     margin-left: 50px;
    }
@@ -539,7 +538,7 @@
     padding: 50px 50px;
   }
   .work-description {
-    padding: 60px 50px;
+    padding: 60px 10px;
 }
   .connect-btn {
   background-color: #47CE90;
@@ -547,6 +546,7 @@
   box-shadow: 0px 5px 15px #141A5F;
   color: #FFFFFF;
   font-size: 18px;
+  margin-bottom: 32px;
   margin-left: 5px;
   padding: 15px 70px;
   text-decoration: none;
@@ -564,6 +564,7 @@
   box-shadow: 0px 5px 15px #141A5F;
   color: #251864;
   font-size: 18px;
+  margin-bottom: 32px;
   margin-left: 5px;
   padding: 15px 81px;
   text-decoration: none;
@@ -578,7 +579,7 @@
     padding: 30px;
   }
   .resume-section {
-    padding: 20px 50px;
+    padding: 20px 10px;
   }
   #about-graphic {
     margin: auto;
@@ -589,8 +590,13 @@
   .hero-graphic {
     display: block;
     margin: auto;
-    margin-top: 50px;
     width: 100%;
+  }
+  .text-description {
+    padding: 0px;
+  }
+  .text-description-hero {
+    padding: 0px;
   }
 }
 
@@ -612,7 +618,6 @@
   .hero-graphic {
     display: block;
     margin: auto;
-    margin-top: 80px;
     width: 75%;
   }
 }
@@ -635,7 +640,6 @@
   .hero-graphic {
     display: block;
     margin: auto;
-    margin-top: 150px;
     width: 50%;
   }
 }
