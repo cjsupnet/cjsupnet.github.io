@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1536px" height="554px" viewBox="0 0 1536 554" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="2094px" height="417px" viewBox="0 0 2094 417" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
     <title>Rectangle 13</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="0%" y1="58.6422443%" x2="100%" y2="58.6422426%" id="linearGradient-1">
-            <stop stop-color="#3023AE" offset="0%"></stop>
-            <stop stop-color="#946DD7" offset="100%"></stop>
-        </linearGradient>
-        <path d="M0,0.179261254 L1536,0.179261254 L1536,325.878655 C1063.42399,381.39979 760.84839,440.043235 628.273208,501.808988 C495.698026,563.574741 286.273623,569.487094 0,519.546045 L0,0.179261254 Z" id="path-2"></path>
-    </defs>
+    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Rectangle-13">
-            <use fill="#4D38BA" xlink:href="#path-2"></use>
-            <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
-        </g>
+        <path d="M0,0 L2094,0 L2094,127.507265 C1733.05452,217.999925 1477.67658,277.668841 1327.86617,306.514015 C1095.7152,351.213415 866.527675,374.884961 732.695917,388.466706 C469.318781,415.195197 225.086809,422.563015 0,410.570159 L0,0 Z" id="Rectangle-13" fill="#EFF2F5"></path>
     </g>
 </svg>
