@@ -358,10 +358,10 @@ p {
   padding: 50px;
 }
 
-#footer-img {
+.footer-img {
   display: inline-block;
-  margin-left: 70px;
-  width: 60px;
+  margin: auto;
+  width: 30px;
 }
 
 #footer-text {
