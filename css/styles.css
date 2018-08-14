@@ -1,11 +1,19 @@
 .margin-top {
-  margin-top: 40px;
+  margin-top: 50px;
+}
+
+.margin-bottom {
+  margin-bottom: 50px;
+}
+
+.container-fluid {
+  background-color: #F6F8FA; 
 }
 
 /*Navbar*/
 
 .navbar {
-  background: #EFF2F5; 
+  background-color: #F6F8FA; 
   border: 0px; 
   height: 70px; 
   padding-right: 85px;
@@ -18,7 +26,7 @@
 }
 
 .navbar-collapse {
-  background-color: #EFF2F5;
+  background-color: #F6F8FA;
   padding-top: 5px;
   margin: 0px;
   border: none;
@@ -28,107 +36,21 @@
   padding-top: 5px;
 }
 
-.navbar-toggle {
-  margin: 0px;
-  padding: 25px;
-  border: none;
-}
-
 #nav-link {
   background-color: transparent;
-  color: #6B7C93;
+  color: #4F4AD5;
 }
 
-#nav-link-select {
+#nav-link:hover {
   background-color: transparent;
-  color: #737AB5;
-}
-
-.icon-bar {
-  margin-top: 5px;
-}
-
-/*Hero CSS*/
-
-.hero {
-  background-color: #F6F8FA;
-  background-repeat: no-repeat;
-  padding: 80px 50px 80px;
-}
-
-.hero-non-homepage {
-  background-color: #EFF2F5;
-  background-repeat: no-repeat;
-  padding: 80px 50px 80px;
-}
-
-#hero-description {
-  color: #6B7C93;
-  font-family: Avenir;
-  font-size: 16px;
-  text-align: center;
-  margin-bottom: 5px;
-}
-
-#hero-title {
-  color: #251864;
-  font-family: 'Bree Serif', serif;
-  font-size: 75px;
-  font-weight: 600;
-  letter-spacing: 1.5px;
-  margin-bottom: 25px;
-  margin-top: 45px;
-  text-align: center;
-}
-
-.hero-button-section{
-  background-color: none;
-  text-align: center;
-}
-
-.button-primary{
-  background-color: #FBBE60;
-  border: 0px;
-  border-radius: 4px;
-  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
-  color: #ffffff;
-  font-family: Avenir;
-  font-size: 18px;
-  font-weight: bold;
-  letter-spacing: 0.1em;
-  margin: 30px 15px 0 0;
-  padding: 10px 50px;
-  text-align: center;
-  text-decoration: none;
-}
-
-.button-secondary{
-  background-color: #FFFFFF;
-  border: 0px;
-  border-radius: 4px;
-  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
-  color: #98A5ED;
-  font-family: Avenir;
-  font-size: 18px;
-  font-weight: bold;
-  letter-spacing: 0.1em;
-  margin: 30px 0 0 15px;
-  padding: 10px 50px;
-  text-align: center;
-  text-decoration: none;
-}
-
-@media (max-width: 500px) {
-  .button-primary, .button-secondary {
-    margin: 30px 0 0 0;
-  }
+  color: #1E1F4B;
 }
 
 /*Beginning of non-hero CSS*/
 
 .left-aligned-description {
   color: #6B7C93;
-  font-family: Avenir;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 30px;
@@ -137,30 +59,11 @@
 
 .left-aligned-title {
   color: #251864;
-  font-family: 'Bree Serif', serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
   text-align: left;
   margin-bottom: 25px;
-}
-
-.left-aligned-list-title {
-  color: #47495A;
-  font-family: 'Bree Serif', serif;
-  font-size: 18px;
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-.left-aligned-list {
-  color: #5E5E5E;
-  font-family: Avenir;
-  font-size: 25px;
-  line-height: 28px;
-  margin-bottom: 8px;
-  text-align: left;
-}
-
-.list-item {
-  font-size: 16px;
 }
 
 ul {
@@ -172,41 +75,34 @@ p {
   color: #6B7C93;
 }
 
-.center-divider {
-  border: 1px solid #D2D8E1;
-  border-radius: 5px;
-  margin: auto;
-  margin-bottom: 30px;
-  margin-top: 20px;
-  width: 85px;
-}
-
 .center-aligned-description{
   color: #6B7C93;
-  font-family: Avenir;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 30px;
   text-align: left;
 }
 
-.work-main {
-  background-color: #EFF2F5;
-  padding: 75px 0;
-}
-
 /*About CSS*/
-
 .about {
   background-color: #F6F8FA;
-  padding: 10px 0px 80px 0px;
+  padding: 10px 0px 10px 0px;
 }
 
-.companies-list{
-  background-color: #ffffff;
-  border-radius: 5px;
-  box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
-  padding: 30px 50px;
+.about-link {
+  text-decoration: none;
+  color: #4F4AD5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.about-link:hover {
+  color: #1E1F4B;
+  text-decoration: none;
 }
 
 /*Work CSS*/
@@ -214,7 +110,7 @@ p {
 .work {
   background-color: #F6F8FA;
   justify-content: space-between;
-  padding: 24px 32px 0 32px;
+  padding: 24px 32px 0px 32px;
 }
 
 .card {
@@ -248,7 +144,7 @@ p {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 15px 10px;
+  padding: 30px 30px;
 }
 
 .card-img-top {
@@ -258,9 +154,9 @@ p {
 }
 
 .card-title {
-  color: #98A5ED;
-  font-family: Avenir;
-  font-weight: bold;
+  color: #251864;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   margin: 0;
   margin-bottom: 0.75rem;
 }
@@ -268,32 +164,31 @@ p {
 .card-body > .card-title {
   font-size: 16px;
   margin-bottom: 0;
-  text-align: center;
+  text-align: left;
+}
+
+.card-type{
+  color: #97a3b3;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 .work-bottom {
   margin-bottom: 60px;
 }
 
-.work-type {
-  color: #98A5ED;
-  font-family: Avenir;
-  font-weight: bold;
-  letter-spacing: 0.05em;
-  text-align: center;
-  text-decoration: none;
-}
-
 .work-title {
   color: #251864;
-  font-family: 'Bree Serif', serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
   text-align: center;
   margin-bottom: 25px;
 }
 
 .work-description {
   color: #5E5E5E;
-  font-family: Avenir;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   padding: 60px 300px;
   text-align: center;
@@ -312,16 +207,6 @@ p {
   text-align: center;
 }
 
-.work-type-block {
-  background-color: #ffffff;
-  border-radius: 5px;
-  box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
-  display: inline-block;
-  padding: 30px 20px;
-  margin: 20px 30px;
-  width: 300px;
-}
-
 /*testimonial CSS*/
 
 .testimonial {
@@ -330,12 +215,11 @@ p {
 }
 
 .quote {
-  color: #6B7C93;
   font-size: 16px;
-  font-family: Avenir;
+  font-family: 'Roboto', sans-serif;
   line-height: 28px;
   margin-bottom: 0px;
-  padding: 100px 300px;
+  padding: 45px 300px;
   text-align: center;
 }
 
@@ -344,31 +228,29 @@ p {
   margin-bottom: 32px;
 }
 
-.quote-name {
+.quote-title {
+  color: #251864;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.quote-text {
   color: #6B7C93;
-  font-size: 14px;
-  font-family: Avenir;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
 /*Footer*/
 
 .footer {
-  background-color: #262848;
-  padding: 50px;
-}
-
-.footer-img {
-  display: inline-block;
-  margin: auto;
-  width: 30px;
-}
-
-#footer-text {
-  color: #D0CECE;
-  display: inline-block;
-  font-size: 12px;
-  font-style: Avenir;
+  background-color: #F6F8FA;
+  padding: 30px;
 }
 
 /*Carousel CSS*/
@@ -389,7 +271,7 @@ p {
 }
 
 .carousel-indicators .active {
-  background-color: #98A5ED;
+  background-color: #4F4AD5;
   border-radius: 10px;
   height: 20px;
   margin: 0 5px;
@@ -407,102 +289,37 @@ p {
 /* Applies to more than one section*/
 
 .text-description {
-  padding: 0px 110px;
+  padding: 80px 110px;
 }
 
 .hyperlink {
-  color: #98A5ED;
-  font-weight: bold;
+  color: #4F4AD5;
 }
 
 .hyperlink:hover {
-  color: #737BB3;
-  font-weight: bold;
+  color: #1E1F4B;
   text-decoration: none;
-}
-
-/*Resume*/
-
-.resume-section{
-  background-color: #FFFFFF;
-  padding: 20px 70px 0px;
-}
-
-.resume-section-title {
-  color: #251864;
-  font-family: 'Bree Serif', serif;
-  text-align: left;
-  margin-bottom: 25px;
-  padding: 0px 30px;
-}
-
-.resume-item-title {
-  color: #737BB3;
-  font-family: Avenir;
-  font-weight: bold;
-  margin-bottom: 5px;
-  text-align: left;
-}
-
-.resume-item-date {
-  color: #737BB3;
-  font-family: Avenir;
-  font-weight: bold;
-  margin-bottom: 5px;
-  text-align: left;
-}
-
-.resume-item-loc {
-  color: #5E5E5E;
-  font-family: Avenir;
-  font-size: 14px;
-  font-weight: lighter;
-  margin-top: 0px;
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-.resume-item-description {
-  color: #5E5E5E;
-  font-family: Avenir;
-  font-size: 16px;
-  font-weight: lighter;
-  line-height: 28px;
-  margin-bottom: 30px;
-  margin-left: 18px;
-  text-align: left;
-}
-
-.software-skills-languages {
-  margin-bottom: 50px;
-}
-
-.software-skills-languages-title {
-  color: #251864;
-  font-family: 'Bree Serif', serif;
-  text-align: left;
-  margin-bottom: 25px;
-}
-
-.software-skills-languages-desc {
-  color: #5E5E5E;
-  font-family: Avenir;
-  font-size: 16px;
-  font-weight: lighter;
-  line-height: 28px;
-  text-align: left;
 }
 
 /*Beginnning Media Queries*/
 
 @media (max-width: 988px) {
+  #brand {
+    margin-left: 35px;
+  }
   .about-graphic {
-    padding: 100px;
+    padding: 0px;
   }
   .quote {
     padding: 50px 50px;
   }
   .work-description {
+    padding: 60px 50px;
+  }
+  .work-title {
+    text-align: left;
+  }
+  .text-description {
     padding: 60px 50px;
   }
 }
