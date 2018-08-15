@@ -51,9 +51,9 @@
 .left-aligned-description {
   color: #6B7C93;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  line-height: 28px;
-  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 25px;
   text-align: left;
 }
 
@@ -63,7 +63,7 @@
   font-size: 50px;
   font-weight: 700;
   text-align: left;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 ul {
@@ -80,7 +80,6 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 28px;
-  margin-bottom: 30px;
   text-align: left;
 }
 
@@ -94,7 +93,7 @@ p {
   text-decoration: none;
   color: #4F4AD5;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 28px;
   margin-bottom: 30px;
@@ -164,13 +163,15 @@ p {
 .card-body > .card-title {
   font-size: 16px;
   margin-bottom: 0;
-  text-align: left;
+  text-align: center;
 }
 
 .card-type{
   color: #97a3b3;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  margin-bottom: 0px;
+  text-align: center;
 }
 
 .work-bottom {
@@ -183,14 +184,14 @@ p {
   font-size: 42px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .work-description {
   color: #5E5E5E;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  padding: 60px 300px;
+  padding: 60px 300px 40px;
   text-align: center;
 }
 
@@ -204,45 +205,6 @@ p {
 }
 
 .work-type-section {
-  text-align: center;
-}
-
-/*testimonial CSS*/
-
-.testimonial {
-  background-color: #F6F8FA;
-  padding: 40px 0px;
-}
-
-.quote {
-  font-size: 16px;
-  font-family: 'Roboto', sans-serif;
-  line-height: 28px;
-  margin-bottom: 0px;
-  padding: 45px 300px;
-  text-align: center;
-}
-
-#quote-mark {
-  width: 60px;
-  margin-bottom: 32px;
-}
-
-.quote-title {
-  color: #251864;
-  font-family: 'Roboto', sans-serif;
-  font-size: 36px;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 25px;
-}
-
-.quote-text {
-  color: #6B7C93;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  line-height: 28px;
-  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -263,6 +225,7 @@ p {
 
 .carousel-indicators li {
   background-color: #E3E7ED;
+  border-color: #E3E7ED;
   border-radius: 10px;
   height: 20px;
   margin: 0 5px;
@@ -272,6 +235,7 @@ p {
 
 .carousel-indicators .active {
   background-color: #4F4AD5;
+  border-color: #4F4AD5;
   border-radius: 10px;
   height: 20px;
   margin: 0 5px;
@@ -310,11 +274,8 @@ p {
   .about-graphic {
     padding: 0px;
   }
-  .quote {
-    padding: 50px 50px;
-  }
   .work-description {
-    padding: 60px 50px;
+    padding: 60px 50px 40px;
   }
   .work-title {
     text-align: left;
