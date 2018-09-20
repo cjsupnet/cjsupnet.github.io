@@ -220,7 +220,7 @@ p {
 .carousel-pic {
   display: block;
   margin: auto;
-  width: 75%;
+  width: 50%;
 }
 
 .carousel-indicators li {
@@ -282,5 +282,10 @@ p {
   }
   .text-description {
     padding: 60px 50px;
+  }
+  .carousel-pic {
+  display: block;
+  margin: auto;
+  width: 75%;
   }
 }
