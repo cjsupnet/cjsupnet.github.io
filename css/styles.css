@@ -45,6 +45,10 @@
   color: #1E1F4B;
 }
 
+.links-wrapper {
+  padding: 25px 150px;
+}
+
 /*Beginning of non-hero CSS*/
 
 .home-center-aligned-description {
@@ -104,7 +108,7 @@ p {
 }
 
 .about-link:hover {
-  color: #1E1F4B;
+  color: #251864;
   text-decoration: none;
 }
 
@@ -288,4 +292,7 @@ p {
   .work-graphic{
   padding: 0px;
   }
+  .links-wrapper {
+  padding: 0px;
+}
 }
