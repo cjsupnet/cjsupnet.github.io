@@ -240,6 +240,15 @@ p {
   max-width: 100%; 
 }
 
+.work-graphic-item-shrink{
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(3,27,78,.06);
+  display: block;
+  height: auto;
+  margin: auto;
+  max-width: 35%; 
+}
+
 /* Applies to more than one section*/
 
 .text-description {
@@ -289,6 +298,11 @@ p {
   padding: 0px 0px;
   max-width: 100%;
   }
+  .work-graphic-item-shrink{
+  margin-top: 25px;
+  padding: 0px 0px;
+  max-width: 100%;
+}
   .work-graphic{
   padding: 0px;
   }
