@@ -11,21 +11,40 @@
 }
 
 .container-fluid {
-  background-color: #F6F8FA; 
+  background-color: #F6F6F6; 
 }
 
 /*Navbar*/
 
 .navbar {
-  background-color: transparent; 
-  border: 0px; 
   height: 70px; 
+  margin-bottom: 0;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.navbar-orange {
+  background-color: #ff9068; 
+  border: 1px solid #ff9068;  
+}
+
+.navbar-white {
+  background-color: #F6F6F6;
+  border: 1px solid #F6F6F6;
+}
+
+.navbar > a {
+  display: block;
 }
 
 #brand {
+  position: relative;
   display: inline-block;
   margin-left: 85px;
-  width: 40px;
+  width: 120px;
 }
 
 .navbar-collapse {
@@ -86,7 +105,7 @@ p {
 }
 
 .center-aligned-description{
-  color: #6B7C93;
+  color: #6A6969;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   letter-spacing: 0.5px;
@@ -95,7 +114,7 @@ p {
 }
 
 .center-aligned-supplemental-info{
-  color: #97a3b3;
+  color: #B8B7B7;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   letter-spacing: 0.5px;
@@ -105,7 +124,7 @@ p {
 
 /*About CSS*/
 .about {
-  background-image: linear-gradient(#5252ff, #4f4ad5);
+  background-color: #ff9068;
   padding-bottom: 10rem;
 }
 
@@ -159,7 +178,7 @@ p {
 
 .card-shadow {
   margin-top: 30px;
-  box-shadow: 0 2px 4px rgba(3,27,78,.06)
+  box-shadow: 0 6px 15px rgba(36,37,38,0.08)
 }
 
 .card-body {
@@ -176,7 +195,7 @@ p {
 }
 
 .card-title {
-  color: #251864;
+  color: #ff9068;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   margin: 0;
@@ -190,7 +209,7 @@ p {
 }
 
 .card-type{
-  color: #97a3b3;
+  color:  #B8B7B7;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   margin-bottom: 0px;
@@ -202,7 +221,7 @@ p {
 }
 
 .work-title {
-  color: #251864;
+  color: #ff9068;
   font-family: 'Roboto', sans-serif;
   font-size: 42px;
   font-weight: 700;
@@ -234,7 +253,7 @@ p {
 /*Footer*/
 
 .footer {
-  background-color: #F6F8FA;
+  background-color: #F6F6F6;
   padding: 30px;
 }
 
@@ -246,7 +265,7 @@ p {
 
 .work-graphic-item{
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(3,27,78,.06);
+  box-shadow: 0 6px 15px rgba(36,37,38,0.08);
   display: block;
   height: auto;
   margin: auto;
@@ -255,7 +274,7 @@ p {
 
 .work-graphic-item-shrink{
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(3,27,78,.06);
+  box-shadow: 0 6px 15px rgba(36,37,38,0.08);
   display: block;
   height: auto;
   margin: auto;
@@ -269,16 +288,16 @@ p {
 }
 
 .hyperlink {
-  color: #4F4AD5;
+  color: #ff4b1f;
 }
 
 .hyperlink:hover {
-  color: #4F4AD5;
+  color: #ff4b1f;
   text-decoration: none;
 }
 
 .work-graphic-caption {
-  color: #97a3b3;
+  color: #6A6969;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 30px;
@@ -287,7 +306,7 @@ p {
 }
 
 .in-text-highlight {
-  color: #251864;
+  color: #ff9068;
   font-weight: 700;
 }
 
