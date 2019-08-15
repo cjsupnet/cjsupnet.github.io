@@ -313,6 +313,7 @@ p {
 .single-row-graphic {
   width: 50%;
 }
+
 /*Beginnning Media Queries*/
 
 @media (max-width: 988px) {
@@ -346,6 +347,9 @@ p {
   .work-graphic{
   padding: 0px;
   }
+  .single-row-graphic {
+  width: 100%;
+}
   .links-wrapper {
   padding: 0px;
 }
