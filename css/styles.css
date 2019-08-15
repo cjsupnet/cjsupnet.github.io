@@ -310,6 +310,9 @@ p {
   font-weight: 700;
 }
 
+.single-row-graphic {
+  width: 50%;
+}
 /*Beginnning Media Queries*/
 
 @media (max-width: 988px) {
